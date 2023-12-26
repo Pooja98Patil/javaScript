@@ -28,6 +28,6 @@ console.log("Age:", age);
 console.log("Address:", address);
 console.log("Pin Code:", pinCode);
 console.log("Gender:", gender);
-console.log("Is Married:", Unmarried);
+console.log("Is Married:", isMarried);
 
 
