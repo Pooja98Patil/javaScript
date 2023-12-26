@@ -1,4 +1,4 @@
-// Point 1 declare a variable for First name
+console.log(".....................Point 1.....................")
 
 var myFullName; 
 console.log(myFullName);
@@ -7,12 +7,12 @@ console.log (myFullName);
 myFullName = "Pooja Umesh Patil";
 console.log(myFullName);
 
-// Point 2
+console.log(".....................Point 2.....................")
 
 var myLove = "I Love Only Js";
 console.log(myLove);
 
-// point 3
+console.log(".....................Point 3.....................")
 
 var firstName = "Pooja";
 var lastName = "Patil";
