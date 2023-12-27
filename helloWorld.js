@@ -37,3 +37,6 @@ console.log("Age:", age);
 myName = "Gajanan Kharat"; // Varibale update
 
 console.log("Full name: ", myName);
+
+var cityType = typeof myName;
+console.log(cityType);
