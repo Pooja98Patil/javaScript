@@ -10,7 +10,6 @@ function squareOfWordLength(str) {
     console.log(`The Given word is => ${str}\n The Length of Word is => ${str.length}, The squre of Length is ${str.length*result}.`);
     console.log(" ");
 };
-
 squareOfWordLength("JavaScript")
 squareOfWordLength("Google Chrome")
 squareOfWordLength("Developer Smart")
