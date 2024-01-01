@@ -1,4 +1,5 @@
 console.log(`=========================Assignment 1 Date- 29/12/2023=============================`);
+
 function stringBasics(){
   var dreamCompany = "Google";
  console.log(`1) My Dream Company is ${dreamCompany}`);

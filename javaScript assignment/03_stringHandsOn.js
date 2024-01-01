@@ -1,37 +1,49 @@
 console.log(`=========================Assignment 2 Date- 29/12/2023=============================`);
 console.log(``);
 function stringHandsOn(){
-    var string = "  Hey you are doing good, keep it up  ";
-    console.log(`1. The Given String is ==> "${string}."`)
     
-    var totalLength = string.length;
-    console.log(`2. Total length of string is ${totalLength}.`);
-    
-    var stringTream = string.trim( );
-    var treamLength = stringTream.length;
-    console.log(`3. After Removing extra spaces from the string is \n   String :- "${stringTream}",\n   Length :- ${treamLength}`);
-    
-    var removedSpace = totalLength - treamLength;
-    console.log(`4. Total number Of removed spaces from string is ${removedSpace}.`);
+    var givenstring = "  Hey you are doing good, keep it up  ";
+    console.log(`1. The Given String is ==> "${givenstring}."`)
 
-    var firstChar = stringTream.charAt(0);
-    var lastChar = stringTream.charAt(stringTream.length-1);
+    ///////////////////////////used .length//////////////////////////////////////
+
+    console.log(`2. Total length of string is ${givenstring.length}.`);
+
+   ////////////////////////////// used .trim();////////////////////////////////////////////////
+
+    var trimedString = givenstring.trim( );
+    console.log(`3. After Removing extra spaces from the string is \n   String :- "${trimedString}",\n   Length :- ${trimedString.length}`);
+
+    ////////////////////////////// used .trim();////////////////////////////////////////////////
+
+    var removedSpaces = givenstring.length - givenstring.trim().length;
+    console.log(`4. Total number Of removed spaces from string is ${removedSpaces}.`);
+
+    ////////////////////////////// used .charAt();////////////////////////////////////////////////
+
+    var firstChar = trimedString.charAt(0);
+    var lastChar =  trimedString.charAt(trimedString.length-1);
     console.log(`5. The 1st and Last character of string after trim is :- ${firstChar}, ${lastChar}.`);
 
-    var wordCount = stringTream.split(" ");
-    console.log(`6. The total words available in the string are ${wordCount.length}.`)
+    ////////////////////////////// used .split(" ");////////////////////////////////////////////////
 
-    var indexOfGood = stringTream.indexOf("good");
-    console.log(`7. The index of word "Good" in the string is ${indexOfGood}.`);
+    console.log(`6. The total words available in the string are ${trimedString.split(" ").length}.`)
 
-    // var substring = stringTream.substring(22);
-    console.log(`8. The substring starting from index 22 is \n   a) Using substring => "${stringTream.substring(22)} \n   b) Using slice ${stringTream.slice(22)}"`);
+    ////////////////////////////// used .indexOf( );////////////////////////////////////////////////
 
-    var endtWith = stringTream.endsWith("up");
-    console.log(`9. Is String ends with word "up" => ${endtWith}`);
+    console.log(`7. The index of word "Good" in the string is ${trimedString.indexOf("good")}.`);
 
-    var startWith = stringTream.startsWith("Hey");
-    console.log(`10. Is string Starts with word "Hey" => ${startWith}`);
+    ////////////////////////////// used .substring() and slice(); ////////////////////////////////////////////////
+
+    console.log(`8. The substring starting from index 22 is \n   a) Using substring => "${trimedString.substring(22)} \n   b) Using slice ${trimedString.slice(22)}"`);
+
+    ////////////////////////////// used .endsWith(" ") ////////////////////////////////////////////////
+    
+    console.log(`9. Is String ends with word "up" => ${trimedString.endsWith("up")}`);
+
+    ////////////////////////////// used .startsWith(" ") ////////////////////////////////////////////////
+    
+    console.log(`10. Is string Starts with word "Hey" => ${trimedString.startsWith("Hey")}`);
 
 };
 
