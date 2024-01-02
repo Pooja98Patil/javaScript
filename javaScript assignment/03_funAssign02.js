@@ -4,7 +4,7 @@ console.log(
   );
   
   console.log(
-    "==========================Step 1 (Function Back Details)===================="
+    "==========================Step 1 (Function Bank Details)===================="
   );
   console.log(
     "                                                                     "
