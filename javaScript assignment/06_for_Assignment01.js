@@ -1,4 +1,4 @@
-console.log(`==========================Assignment 01=================`);
+console.log(`==========================Assignment 01 using for Loop=================`);
 ///////////progrm for write a number from 5 to 15//////////
 console.log(`Numbers Form 5 to 15`);
 console.log(`Step 1`);

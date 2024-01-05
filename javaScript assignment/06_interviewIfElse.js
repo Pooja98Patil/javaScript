@@ -5,7 +5,7 @@ console.log(`================Assignment 03=============`);
     console.log(`Candidate Name:${candidateName}, Garduation Score: ${gradScore}, HSC Score: ${hscScore}, SSC Score: ${sscScore}.`)
     if (gradScore>=70 || hscScore>=80 ||sscScore>=90 || gradScore==undefined || isNaN(gradScore) || hscScore==undefined || isNaN(hscScore)|| sscScore==undefined || isNaN(sscScore)) {
 
-        console.log(`Congrates! ${candidateName} You are Eligible for TCS Interview.`)
+        console.log(`Congrates! ${candidateName} You are Eligible for TCS Interview.\n`) 
            
        }else{
         console.log(`Unfortunately, ${candidateName} you are not eligible for Interview.`)
