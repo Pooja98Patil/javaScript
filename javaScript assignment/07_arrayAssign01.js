@@ -30,7 +30,7 @@ console.log(`=================================Step 4=========================`);
 const fruits4 = ["Banana", "Orange", "Apple", "Mango", "Water Melon"];
 console.log(`Original array=> ${fruits4}`);
 fruits4.push("Pineapple");
-console.log(`After Adding the 'pineapple'=> ${fruits4} `);
+console.log(`After Adding the 'pineapple'=> ${fruits4}`);
 console.log(' ');
 
 console.log(`=================================Step 5=========================`);
