@@ -70,7 +70,7 @@ for (const oddSum in arrayNumbers) {
     }
         
     }
-    console.log(`The Sum of All Even positioned elements is => ${sumOfOdd}`);
+    console.log(`The Sum of All odd positioned elements is => ${sumOfOdd}`);
 
 
 console.log(`=========================Step 8========================`);
