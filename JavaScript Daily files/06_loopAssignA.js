@@ -66,3 +66,7 @@ function oddPositionedChars(str){
 
 oddPositionedChars("Hard Work always Pays back");
 oddPositionedChars("Soon I will be Angular It Champ")
+
+
+var str = "Hard Work always Pays back";
+var strLength = str.length;
