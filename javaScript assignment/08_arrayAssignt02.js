@@ -64,7 +64,7 @@ for (const oddSum in arrayNumbers) {
   
     if (oddSum%2 == 1) {
         let num = arrayNumbers[oddSum]
-        //console.log(`${num}`)
+        console.log(`${num}`)
         sumOfOdd = sumOfOdd + num;
 
     }
