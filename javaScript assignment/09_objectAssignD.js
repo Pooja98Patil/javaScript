@@ -9,14 +9,14 @@ let professor = {
 
 console.log(`================Step 1====================`);
 console.log(`Given Array =>`);
-console.log(professor);
+console.log(JSON.stringify(professor));
 
 console.log(``);
 console.log(`================Step 2====================`);
 console.log(`After Adding Nested object: degrees`);
 
 professor.degrees = {engineering : "CSC",Masters : "MTech",PHD : "Adv Computing" }
-console.log(professor.degrees);
+console.log(JSON.stringify(professor));
 
 console.log(``);
 console.log(`================Step 3====================`);
@@ -30,7 +30,7 @@ console.log(`================Step 4====================`);
 console.log(`Added new Property: totalExperience`);
 
 professor.totalExperience = "14 years";
-console.log(professor.totalExperience);
+console.log(JSON.stringify(professor));
 
 console.log(``);
 console.log(`================Step 5====================`);

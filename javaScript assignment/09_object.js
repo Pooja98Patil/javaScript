@@ -1,3 +1,6 @@
+////////////object//////
+
+
 let person = {
 
     firstName: "Gajanan",
@@ -10,13 +13,24 @@ let person = {
 
 console.log(person);
 
-person.age = 33; // Update
+person.age = 33; // Updating the value
 
 console.log(person);
 
- 
-
+ const entr = Object.entries(person);////to find entries from the object
+ console.log(entr);
+const key = Object.keys(person); ////to find all keys from object
+console.log(key);
+const per = Object.values(person); ///to fins all values from object
+console.log(per);
 person.isMarried = false;
+
+let isPresent = "age" in person ///to find the value is present on the object or not
+console.log(isPresent);
+
+let isPresents = "city" in person
+console.log(isPresents);
+
 
 //console.table(person);
 
@@ -26,7 +40,7 @@ delete person.designation;
 
 console.table(person);
 
-   
+   //////type of accessing value in object
 
 console.log(`Dot Notation`);
 
@@ -36,7 +50,7 @@ console.log(`Square bracket Notation`);
 
 console.log(person["firstName"]); // 
 
- 
+ /////////adding the value in object
 
 person.designation = "Tech Arch";
 
@@ -44,13 +58,13 @@ console.log(person);
 
 console.log(`Empty Object....`);
 
-let address ={
+const address ={
 
  
 
 }
 address.city = "Pune";
-
+console.log(address);
 
 
 
