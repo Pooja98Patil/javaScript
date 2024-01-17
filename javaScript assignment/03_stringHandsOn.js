@@ -35,7 +35,8 @@ function stringHandsOn(){
 
     ////////////////////////////// used .substring() and slice(); ////////////////////////////////////////////////
 
-    console.log(`8. The substring starting from index 22 is \n   a) Using substring => "${trimedString.substring(22)} \n   b) Using slice ${trimedString.slice(22)}"`);
+    console.log(`8. The substring starting from index 22 is \n   a) Using substring => "${trimedString.substring(22)} \n 
+     b) Using slice ${trimedString.slice(22)}"`);
 
     ////////////////////////////// used .endsWith(" ") ////////////////////////////////////////////////
     
