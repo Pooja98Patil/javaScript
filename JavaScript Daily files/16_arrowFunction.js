@@ -41,7 +41,7 @@ console.log(`Multiplication is: ${returnValue}`);
 const noOfChar = (string) => {
    
     var char = string.length;
-    return char
+    return char 
 }
 
 const result = noOfChar("JavaScript");

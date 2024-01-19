@@ -12,3 +12,19 @@ for (let i = 0; i < givenNum.length; i++) {
 }
 
 console.log(`After Removing dublicate Value => ${updatedArray}`);
+
+
+
+//////
+var str = "Developer world";
+console.log(str.slice(1,-1))
+
+
+
+
+
+
+
+
+
+
