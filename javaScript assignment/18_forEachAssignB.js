@@ -64,7 +64,7 @@ var sumOfSalary = 0;
 
 arrayEmployee.forEach((element)=> {
     sumOfSalary = sumOfSalary + element.emp_salary
-})
+});
 
 console.log(`3. Sum of all Employee's Salary is => ${sumOfSalary}`);
 
@@ -83,3 +83,4 @@ console.log(`5. Employee's who salary >= 75000 from deprtment HR or IT `);
         console.log(element);
     }
  })
+ 
