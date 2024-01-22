@@ -29,4 +29,4 @@ console.log(`Result => ${outputString}`);
 
 
 
-inputString("how are you mate");
+inputString("How are you mate      ");
