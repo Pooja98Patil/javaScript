@@ -70,7 +70,7 @@ const array = arrayStudents.filter( (element) => {
     return element.id%2!=0;
 
 });
-
+    
  
 
 const sumOfMarks = array.reduce((rt, element) => {

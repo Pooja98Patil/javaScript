@@ -16,8 +16,8 @@ console.log(`After Removing dublicate Value => ${updatedArray}`);
 
 
 //////
-var str = "Developer world";
-console.log(str.slice(1,-1))
+//var str = "Developer world";
+//console.log(str.slice(1,-1))
 
 
 
