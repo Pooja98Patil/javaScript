@@ -26,8 +26,9 @@ function multiply(n1, n2, n3) {
   console.log("Given numbers are: ", n1, n2, n3);
 
   var result = n1 * n2 * n3;
-
+  // return n1 * n2 * n3;
   return result;
+  
 
 }
 

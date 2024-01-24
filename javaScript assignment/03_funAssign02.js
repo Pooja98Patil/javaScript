@@ -12,9 +12,7 @@ console.log(
   function bankDetails(bankName, accountName, location, pinCode){
 
     console.log("My Bank name is ",bankName, ", Account Number is", accountName, ", The Location is", location, ", And the pincode is", pinCode );
-    console.log(
-        "                                                                     "
-      );
+    console.log(" ");
 
   };
   bankDetails("Citi Bank", "3456782345", "Pune", "431202");

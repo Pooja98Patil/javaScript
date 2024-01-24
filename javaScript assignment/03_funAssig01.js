@@ -1,28 +1,16 @@
-console.log(
-  "==========================Assignment 01 (Functions) Date- 28/12/2023================================="
-);
-console.log(
-  "                                                                     "
-);
+console.log("==========================Assignment 01 (Functions) Date- 28/12/2023=================================");
+console.log("");
 
-console.log(
-  "==========================Step 1 (Function without arguments and no return value)===================="
-);
-console.log(
-  "                                                                     "
-);
+console.log("==========================Step 1 (Function without arguments and no return value)====================");
+console.log(" ");
 
 function sent01() {
-  console.log(
-    "This is the Output of function 1 with no aruguments and no return value."
-  );
+  console.log("This is the Output of function 1 with no aruguments and no return value.");
 }
 sent01();
 
 function sent02() {
-  console.log(
-    "This is the Output of function 2 with no aruguments and no return value."
-  );
+  console.log("This is the Output of function 2 with no aruguments and no return value.");
 }
 sent02();
 console.log(

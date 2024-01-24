@@ -85,6 +85,7 @@ console.log(`============================Step 5=================================
 
 const sumOFSalary = arrayEmployee.reduce((rt, element) => rt + element.emp_salary, 0);
 
+
 console.log(`Total Salary of all employee is ${sumOFSalary}, and total number of employees are ${arrayEmployee.length}`);
 console.log(`5. The Avarage Salary of all the Employees is =>${sumOFSalary/arrayEmployee.length}`);
 
@@ -93,9 +94,12 @@ console.log(``);
 console.log(`============================Step 6=====================================`);
 
 const arrayItDepart = arrayEmployee.filter(element => element.emp_dept === "IT");
-
+//console.log(arrayItDepart);
 const SumOfSalary = arrayItDepart.reduce((currentValue, element) => currentValue + element.emp_salary, 0);
 
 console.log(`Total employee working In IT Department are => ${arrayItDepart.length}, and total salary of these employees are => ${SumOfSalary}`);
 console.log(`6. The Avarage Salary of IT Employees is => ${SumOfSalary/arrayItDepart.length}`);
 
+ 2 
+
+ 
