@@ -24,7 +24,7 @@ const liRoles = document.getElementsByClassName("roles");
 
 console.log(liRoles[0].innerHTML);
 
-console.log(liRoles[1].innerHTML);
+//console.log(liRoles[1].innerHTML);
 
  
 
@@ -86,11 +86,7 @@ projectElement.innerHTML = "Project Title: College Management System";
 console.log(`==== Applying CSS properties ========`);
 
 projectElement.style.color = "red";
-
- 
-
 elementP.style.fontSize = 'large';
-
 elementP.style.fontWeight = 'bold';
 
 
@@ -101,3 +97,69 @@ const elementLink = document.querySelector('#visitLink');
 elementLink.setAttribute('href', "https://www.w3schools.com/");
 
 elementLink.setAttribute('target', "_self");
+
+
+
+console.log(`==== Creating a new node ========`);
+
+const h2Element = document.createElement('h2');
+
+const textNodeStrength = document.createTextNode('Personal Strength');
+
+h2Element.appendChild(textNodeStrength);
+
+h2Element.style.color='CadetBlue';
+
+ 
+
+const strengthElement = document.querySelector('.strength');
+
+strengthElement.appendChild(h2Element);
+
+
+console.log(`==== Remove a node ========`);
+
+const elementRolesList = document.querySelector('#rolesList');
+
+const elementRole3 = document.querySelector('#role3');
+
+elementRolesList.removeChild(elementRole3);
+
+const submitButton = document.querySelector('#addition');
+const fieldOne = document.querySelector('#field-one');
+const fieldTwo = document.querySelector('#field-two');
+const resultValue = document.querySelector('#resultValue');
+
+ 
+
+submitButton.addEventListener('click', () => {
+
+    const valueOne = +fieldOne.value;
+
+    const valueTwo = +fieldTwo.value;
+
+    const result = valueOne + valueTwo;
+
+    console.log(valueOne + valueTwo);
+
+    // alert(` Addition is: ${valueOne + valueTwo}`);
+
+    resultValue.innerHTML = result;
+
+} );
+
+
+
+// // alert()
+
+// alert("This is just information...");
+
+// // prompt()
+
+// const inputValue = prompt("Input Field", 0);
+
+// console.log(inputValue);
+
+// // confirm ()
+
+// confirm("Are you sure...");
