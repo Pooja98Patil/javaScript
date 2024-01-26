@@ -30,7 +30,7 @@ arrayNumbers.forEach((element) => {
     if (element < 0) {
         negativeNo.push(element);
     }
-})
+});
 
 console.log(`Negative Numbers From Given array =>`);
 console.log(negativeNo);

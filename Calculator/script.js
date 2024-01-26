@@ -65,8 +65,12 @@ division.addEventListener('click', () => {
 });
 
 
+
+
 ///////code for clear the value/////
 
 clearValue.addEventListener('click', () => {
-    resultValue.innerHTML = 0;
-})
+    resultValue.innerHTML = "";
+    value1.value = "";
+    value2.value = "";
+});
