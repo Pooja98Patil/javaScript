@@ -35,7 +35,7 @@ arrayEmployee.filter((element) => {
 });
 
 console.log(`============================Step 1=====================================`);
-///find all th employee from wipro/////////////
+///find all the employee from wipro/////////////
 
 console.log(`1. List of employees working in wipro =>`)
 arrayEmployee.filter((element) => {
@@ -57,7 +57,7 @@ arrayEmployee.filter((element) => {
 
 console.log(``);
 console.log(`============================Step 3=====================================`);
-//////////////fins the employees whosr id grter than 50
+//////////////find the employees whoes id greater than 50
 
 console.log(`3. Employees Whose ID is greater than 50 =>`);
 
@@ -100,6 +100,6 @@ const SumOfSalary = arrayItDepart.reduce((currentValue, element) => currentValue
 console.log(`Total employee working In IT Department are => ${arrayItDepart.length}, and total salary of these employees are => ${SumOfSalary}`);
 console.log(`6. The Avarage Salary of IT Employees is => ${SumOfSalary/arrayItDepart.length}`);
 
- 2 
+ 
 
  
