@@ -5,7 +5,7 @@ console.log(`The Given Array => ${givenNum}`);
 const updatedArray = [];
 
 for (let i = 0; i < givenNum.length; i++) {
-  if (updatedArray.indexOf(givenNum[i]) === -1) {
+  if (updatedArray.indexOf(givenNum[i]) === -1) {  //array return -1 when its empty
     updatedArray.push(givenNum[i]);
   }
  
